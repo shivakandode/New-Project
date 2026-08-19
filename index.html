@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shivas Resto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="hero" role="main" aria-labelledby="welcome-title">
+      <div class="halo" aria-hidden="true"></div>
+      <section class="card">
+        <header class="card-header">
+          <p class="brand"><span>Shivas Resto</span></p>
+          <p class="status-pill">Open Today: 12:00 PM - 11:00 PM</p>
+        </header>
+
+        <div class="content-grid">
+          <div class="content-copy">
+            <h1 id="welcome-title">Shivas Resto</h1>
+            <p id="welcome-text">
+              Welcome to Shivas Resto, where elegant flavors, fresh ingredients,
+              and warm hospitality come together for a memorable dining
+              experience.
+            </p>
+
+            <div class="highlights" aria-label="Restaurant highlights">
+              <span>Chef's Special: Smoked Butter Paneer</span>
+              <span>Family Seating Available</span>
+              <span>Live Music on Weekends</span>
+            </div>
+
+            <div class="cta-row">
+              <button id="cheer-button" type="button">Reserve a Table</button>
+              <a class="ghost-link" href="menu.html" aria-label="Open full menu page">View Menu</a>
+            </div>
+
+            <p id="status-note" class="note">Walk-ins welcome. Reservation recommended for dinner hours.</p>
+          </div>
+
+          <figure class="media">
+            <img
+              class="dish-photo"
+              src="assets/dish.jpg"
+              alt="A beautifully plated gourmet dish"
+            />
+            <figcaption>Signature House Platter</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
